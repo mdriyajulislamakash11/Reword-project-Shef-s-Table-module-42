@@ -9,6 +9,7 @@ function App() {
   const [cook, setCook] = useState([])
   const [currentCooking, setCurrentCooking] = useState([]);
 
+  // 3 number section er jonno
   const handleCooking = (cooking) => {
     setCurrentCooking([...currentCooking, cooking]);
   };
